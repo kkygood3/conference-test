@@ -1,0 +1,9 @@
+package group.common;
+
+import group.ReservationAppApplication;
+import io.cucumber.spring.CucumberContextConfiguration;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@CucumberContextConfiguration
+@SpringBootTest(classes = { ReservationAppApplication.class })
+public class CucumberSpingConfiguration {}
